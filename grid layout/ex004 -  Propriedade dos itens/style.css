@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #333;
+    border: 3px solid red;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.container div {
+    background-color: #ccc;
+    padding: 20px;
+    border: 1px solid blue;
+}
+
+#item-1 { /* coluna */
+    grid-column-start: 1; /* onde começa */
+    grid-column-end: 4; /* onde termina */
+}
+
+
+#item-2 { /* linha */
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+#item-3 {
+    justify-self: end;
+    height: 200px;
+}
+
+#item-5 {
+    justify-self: start;
+    height: 200px;
+}
+
+#item-4 {
+    align-self: center;
+}
+
+#item-6 {
+    align-self: end;
+}
