@@ -8,7 +8,7 @@ let usuario = {
      linguagem: document.getElementById('linguagem'),
 }
 
-
+//funções
 function nomeDigitado() {
     resultado.innerHTML = usuario.nome.value
 }
