@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #333;
+    border: 3px solid red;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 50vh;
+    justify-content: space-around; /* Igual o Flexbox */
+}
+
+.container div {
+    background-color: #ccc;
+    padding: 20px;
+    border: 1px solid blue;
+}
