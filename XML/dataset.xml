@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pessoa>
+    <nome>Vinicius</nome>
+    <idade>27</idade>
+    <profissao>programador</profissao>
+    <jogos>
+        <leagueoflegends>
+            <campeao>Kai'sa</campeao>
+            <campeao2>Kog Maw</campeao2>
+        </leagueoflegends>
+        <pubg>
+            <arma>M4A1</arma>
+            <arma2>Kar 98</arma2>
+        </pubg>
+    </jogos>
+</pessoa>
